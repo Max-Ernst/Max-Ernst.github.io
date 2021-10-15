@@ -59,10 +59,11 @@ div {
 }
 
 .big-title{
-  font-size: 200%;
+  font-size: 500%;
   padding: 20px;
   margin-left: 50px;
   margin-right: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .big-subtitle{
@@ -78,7 +79,7 @@ div {
   margin-right: 20%;
   margin-left: 20%;
   margin-top: 0%;
-  /* font-size: 36px; */
+  font-size: 36px;
 }
 
 /* content */
