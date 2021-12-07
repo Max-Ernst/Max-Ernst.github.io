@@ -7,7 +7,6 @@ html {
 }
 
 body {
-  background-color: #1b5598;
   overscroll-behavior: none;
   overflow: hidden;
   overflow-y: auto;
@@ -19,7 +18,7 @@ body {
   padding: 0;
 }
 
-.body {
+.main {
   margin-left: 15%;
 	margin-right: 15%;
 	border-radius: 30px;
@@ -28,6 +27,9 @@ body {
 	animation-play-state: running;
 	animation-iteration-count: 1;
 	margin-top: 5%;
+  background-color: #ffffbf;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 a {
