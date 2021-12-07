@@ -3,6 +3,7 @@ html {
   width:100%;
   margin: 0;
   padding: 0;
+  background-color: #0a0f57;
 }
 
 body {
@@ -16,6 +17,17 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+.body {
+  margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 30px;
+	animation-name: rise;
+	animation-duration: 0.9s;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+	margin-top: 5%;
 }
 
 a {
