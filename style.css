@@ -12,6 +12,30 @@ body {
 
 #center-circle{
   position: absolute;
-  top: calc(50% + 12.5px - 75px);
-  left: calc(50% - 75px);
+  z-index: 3;
+  top: 42%;
+  left: 40%;
+}
+
+.box{
+  float:left;
+  position: relative;
+  width: 35%;
+  padding-bottom : 50%; /* = width for a 1:1 aspect ratio */
+  padding-left: 5%;
+  padding-right: 5%;
+  margin:1.66%;
+  background-color: #545454;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1-1{
+  background-image: url("../images/me!.png");
+}
+
+.row{
+  width: 50%;
+  background-color: blue;
 }
