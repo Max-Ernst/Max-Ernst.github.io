@@ -10,8 +10,8 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  top: calc(50% - 100px);
-  left: calc(50% - 100px);
+  top: calc(50vh - 120px);
+  left: calc(50% - 105px);
   border-radius: 50%;
   cursor: pointer;
   background-position: center;
@@ -21,24 +21,26 @@ body {
 }
 
 .boxes{
-  padding-top: 80px;
+  box-sizing: inherit;
 }
 
 .row-container{
-  background-color: #545454;
-  height: calc(50% - 50px);
+  height: calc(50vh - 50px);
   min-height: 350px;
-  margin: 16px 0px;
+  width: 100%;
+  padding: 0 8px;
 }
 
 .box{
   position: relative;
-  padding: 0 8px;
+  size: relative;
   width: 50%;
+  padding: inherit;
   height: 100%;
-  margin: 16px 0px;
+  margin: 8px 0px;
   float: left;
   box-sizing: inherit;
+  cursor: pointer;
 }
 
 .image-holder{
@@ -47,4 +49,16 @@ body {
   height: 100%;
   object-fit: cover;
   top: 10px;
+}
+
+.category-label{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  padding: 0px 10px;
+  width: calc(100% - 16px);
+  text-align: center;
+  background-color: #00000070;
 }
