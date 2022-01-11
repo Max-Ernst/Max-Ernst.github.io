@@ -20,6 +20,22 @@ body {
   filter: drop-shadow(2px 4px 6px black);
 }
 
+.central-circle:hover{
+  transform:scale(1.1,1.1);
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+}
+
+.circle-label{
+  color: #ffffff;
+  font-family: 'LMSansQuot8-Regular', monospace;
+  font-weight: 300;
+  font-size: 25px;
+  position: relative;
+  top: 70%;
+  left: 17%;
+}
+
 .boxes{
   box-sizing: inherit;
 }
@@ -49,6 +65,12 @@ body {
   height: 100%;
   object-fit: cover;
   top: 10px;
+}
+
+.image-holder:hover{
+  transform:scale(1.05,1.05);
+  -webkit-transform:scale(1.05,1.05);
+  -moz-transform:scale(1.05,1.05);
 }
 
 .category-label{
