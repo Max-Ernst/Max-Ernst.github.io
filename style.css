@@ -30,7 +30,7 @@ body {
 }
 
 .central-circle:hover{
-  animation: rotateYaxis 2s linear 1;
+  animation: rotateYaxis 1s linear 1;
 }
 
 .circle-label{
@@ -75,9 +75,9 @@ body {
 }
 
 .box:hover{
-  transform:scale(1.05,1.05);
-  -webkit-transform:scale(1.05,1.05);
-  -moz-transform:scale(1.05,1.05);
+  transform:scale(1.02,1.02);
+  -webkit-transform:scale(1.02,1.02);
+  -moz-transform:scale(1.02,1.02);
 }
 
 .category-label{
@@ -94,4 +94,19 @@ body {
 .box:hover .category-label{
   font-size: 22px;
   background-color: #000000a2;
+}
+
+#pop-up{
+  z-index: -1;
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+  width: 80vw;
+  height: 80vh;
+  background-color: #181a1b;
+}
+
+.pop-up-active{
+  background-color: #43484b;
+  box-shadow: 5px 5px 10px #000000;
 }
