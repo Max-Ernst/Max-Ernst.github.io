@@ -83,7 +83,7 @@ body {
 .category-label{
   color: #ffffff;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   padding: 0px 10px;
@@ -92,7 +92,7 @@ body {
   background-color: #00000070;
 }
 .box:hover .category-label{
-  font-size: 22px;
+  font-size: 35px;
   background-color: #000000a2;
 }
 
