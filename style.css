@@ -1,17 +1,23 @@
 body {
+  /* Style */
   color: #545454;
   font-family: 'Roboto', sans-serif;
   background-color: #181a1b;
 }
 
 .face-circle{
+  /* Style */
+  /* Positioning */
   z-index: 3;
   position: absolute;
-  width: 200px;
-  height: 200px;
   top: calc(50vh - 120px);
   left: calc(50% - 100px);
+
+  /* Content */
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  
   cursor: pointer;
   background-position: center;
   background-size: 100%;
