@@ -50,7 +50,8 @@ html, body {
 
 .banner {
   position: absolute;
-  text-shadow: 5px 5px 5px black;
+
+  transform: translateY(60%);
 }
 
 .text {
@@ -58,6 +59,7 @@ html, body {
   font-size: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  text-shadow: 5px 5px 5px black;
 
   display: flex;
   align-items: center;
